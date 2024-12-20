@@ -6,20 +6,18 @@ const Navbar = () => {
   return (
     <nav className="bg-[#E4E7F2]">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        {/* Logo */}
         <div className="flex items-center absolute left-4">
           <Image
             src={Logo}
             alt="Logo BeneBenefícios"
-            width={36} // tamanho da logo
+            width={36} 
             height={36}
           />
-          <span className="text-xl font-bold text-[#59423A] ml-2">
+          <span className="text-xl font-bold text-[#13413D] ml-2">
             Bene<span className="text-blue-500">Benefícios</span>
           </span>
         </div>
 
-        {/* Links no meio */}
         <div className="flex-1 flex justify-center">
           <ul className="hidden md:flex space-x-12 items-center">
             <li>
@@ -52,10 +50,8 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Mobile Menu */}
         <div className="md:hidden">
           <button className="text-gray-800 focus:outline-none">
-            {/* Ícone do menu hambúrguer */}
             <svg
               className="w-8 h-8"
               fill="none"
